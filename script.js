@@ -69,8 +69,8 @@ const messages = [
 let messageIndex = 0;
 
 function handleNoClick() {
-    const noButton = document.querySelector('.no-button');
-    const yesButton = document.querySelector('.yes-button');
+const yesButton = document.querySelector('.iyaa-bangettt-button');
+const noButton = document.querySelector('.ngga-coba-click-kalo-ga-percaya-button');
     noButton.textContent = messages[messageIndex];
     messageIndex = (messageIndex + 1) % messages.length;
     const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
